@@ -1,6 +1,6 @@
 import supertest from 'supertest'
 import { app } from '../server'
-import { getById } from '../store.js'
+import { getById } from '../store/whisper.js'
 import { restoreDb, populateDb, getFixtures, ensureDbConnection, normalize, closeDbConnection } from './utils.js'
 
 let whispers
